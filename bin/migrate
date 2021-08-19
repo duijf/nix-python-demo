@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eufo pipefail
+cd $PROJECT_ROOT/backend
+python -m api migrate
