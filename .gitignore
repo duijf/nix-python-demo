@@ -1,0 +1,8 @@
+# Environment symlink created by `.envrc` for PyCharm.
+.env/
+
+# Nix's `result` symlinks when running `nix-build`.
+result*
+
+# Secrets file configuration
+config/secrets.env
