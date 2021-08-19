@@ -9,3 +9,6 @@ config/secrets.env
 
 # Python cache files
 __pycache__
+
+# Ignore all the stuff in this directory
+ignore/
