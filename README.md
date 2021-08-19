@@ -37,3 +37,14 @@ This repository contains:
  - Some basic testing.
 
 You probably already have some preferences / weapons of choice here.
+
+## Real world usage
+
+ - At [Channable][channable-nix] (disclaimer: used to work on this). ([HN
+   discussion][channable-nix-hn])
+ - At [Shopify][shopify-nix] ([HN discussion][shopify-nix-hn])
+
+[channable-nix]:https://www.channable.com/tech/nix-is-the-ultimate-devops-toolkit
+[channable-nix-hn]:https://news.ycombinator.com/item?id=26748696
+[shopify-nix]:https://shopify.engineering/what-is-nix
+[shopify-nix-hn]:https://news.ycombinator.com/item?id=23251754
