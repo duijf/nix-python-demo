@@ -91,7 +91,7 @@ async def get_home(
     if isinstance(session, Session):
         return RedirectResponse("/app")
 
-    return HTMLResponse("Want to log in?")
+    return HTMLResponse('Want to <a href="/login">log in</a>?')
 
 
 @router.get("/app")
