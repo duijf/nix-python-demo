@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -eufo pipefail
+overmind start --root $PROJECT_ROOT -f $PROJECT_ROOT/config/procfile.dev

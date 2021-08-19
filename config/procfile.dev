@@ -1,0 +1,10 @@
+# This file is read by `overmind` [1], a process manager similar to `foreman`.
+# `overmind` will start two processed: our API server and the DB server. You
+# can start the application with the `start` command. (See also `bin/start`).
+#
+# [1] https://github.com/DarthSim/overmind
+
+# Syntax: `<name>: <command>`.
+# See `bin/api` and `bin/db-server` for what these commands do.
+api: api
+db: db-server

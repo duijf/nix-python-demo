@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -eufo pipefail
+
+rm -rf $STATE_DIR/postgres
+mkdir -p $STATE_DIR/postgres
+
+initdb \
+    --locale en_US.UTF-8 \
+    --auth peer \
+    --no-sync \
+    > /dev/null
+
+rm \
+    $PGDATA/postgresql.conf \
+    $PGDATA/pg_ident.conf \
+    $PGDATA/pg_hba.conf
+
+postgres \
+    --config-file=$CONFIG_DIR/postgresql.conf
