@@ -48,3 +48,8 @@ You probably already have some preferences / weapons of choice here.
 [channable-nix-hn]:https://news.ycombinator.com/item?id=26748696
 [shopify-nix]:https://shopify.engineering/what-is-nix
 [shopify-nix-hn]:https://news.ycombinator.com/item?id=23251754
+
+## Resources
+
+ - https://nix.dev/
+ - https://nixos.wiki/
